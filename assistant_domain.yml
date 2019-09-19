@@ -1,0 +1,221 @@
+intents:
+ - greet
+ - goodbye
+ - ACSH
+ - ACAE
+ - ANCH
+ - ANCE
+ - ATDV
+ - ASTI
+ - XCNS
+ - AFAC
+ - ISID
+ - AOCD
+ - AUUR
+ - AARG
+ - APDA
+ - AACR
+ - ALRF
+ - APNR
+ - ACLR
+ - ISRC
+ - AONR
+ - APOR
+ - AORC
+ - AAIC
+ - AOTX
+ - APDB
+ - XOLR
+ - ALRC
+ - AIRT
+ - AIRM
+ - AFUL
+ - AICD
+ - AIWP
+ - AGIS
+ - AIFG
+ - AIPF
+ - AILR
+ - AIBA
+ - AIOT
+ - XITL
+ - APPY
+ - APYO
+ - ADCA
+ - ACAO
+ - ADTC
+ - ARAC
+ - ACDF
+ - ADFC
+ - ARCA
+ - ARSI
+ - XOCA
+ - XTCA
+ - AFVP
+templates:
+  utter_greet:
+    - 'Hello! How Can I help you?'
+    - 'Hi, Welcome to My PlayGround!!'
+  utter_goodbye:
+    - 'Nice talking to you!!'
+    - 'Have a nice day.'
+    - 'Bye :('
+    - 'Talk to you later!! Good Day!!'
+  utter_ACSH:
+    - 'CASH'
+  utter_ACAE:
+    - 'CASH & EQUIVALENTS'
+  utter_ANCH:
+    - 'NEGATIVE CASH'
+  utter_ANCE:
+    - 'NEGATIVE CASH & EQUIVALENT'
+  utter_ATDV:
+    - 'CURRENT DERIVATIVE FINANCIAL INSTRUMENTS - SPECULATIVE/TRADING'
+  utter_ASTI:
+    - 'SHORT TERM INVESTMENTS'
+  utter_XCNS:
+    - 'CASH & ST INVESTMENTS – TOTAL'
+  utter_AFAC:
+    - 'FINANCIAL ASSETS - CURRENT'
+  utter_ISID:
+    - 'ISLAMIC INVESTMENTS & DEPOSITS'
+  utter_AOCD:
+    - 'CURRENT DERIVATIVE FINANCIAL INSTRUMENTS – HEDGING'
+  utter_AUUR:
+    - 'CURRENT UNBILLED UTILITY REVENUE - NET/GROSS'
+  utter_AARG:
+    - 'ACCOUNTS RECEIVABLE, GROSS'
+  utter_APDA:
+    - 'PROVISION FOR DOUBTFUL TRADE ACCOUNTS'
+  utter_AACR:
+    - 'ACCOUNTS RECEIVABLE, NET'
+  utter_ALRF:
+    - 'LOAN/NOTES RECEIVABLES, GROSS'
+  utter_APNR:
+    - 'PROVISION FOR LOAN/NOTES RECEIVABLES'
+  utter_ACLR:
+    - 'LOANS/NOTES RECEIVABLES NET'
+  utter_ISRC:
+    - 'ISLAMIC RECEIVABLES, CURRENT'
+  utter_AONR:
+    - 'OTHER RECEIVABLES, GROSS'
+  utter_APOR:
+    - 'PROVISION FOR OTHER RECEIVABLES'
+  utter_AORC:
+    - 'OTHER RECEIVABLES, NET'
+  utter_AAIC:
+    - 'ST ACCRUED INCOME'
+  utter_AOTX:
+    - 'INCOME TAX RECEIVABLES - NET/GROSS'
+  utter_APDB:
+    - 'PROVISION FOR DOUBTFUL ACCOUNTS - TOTAL'
+  utter_XOLR:
+    - 'LOANS/NOTES & RECEIVABLES, CURRENT'
+  utter_ALRC:
+    - 'RECEIVABLES >   - YR INCLUDED WITHIN CURRENT RECEIVABLES'
+  utter_AIRT:
+    - 'REAL ESTATE INVENTORY, TOTAL'
+  utter_AIRM:
+    - 'INVENTORIES - RAW MATERIALS, NET'
+  utter_AFUL:
+    - 'FUEL - INVENTORY  (UTILITY CO.)'
+  utter_AICD:
+    - 'INVENTORIES - COST IN EXCESS OF BILLINGS'
+  utter_AIWP:
+    - 'INVENTORIES - WORK IN PROGRESS'
+  utter_AGIS:
+    - 'GAS IN STORAGE – INVENTORY'
+  utter_AIFG:
+    - 'INVENTORIES - FINISHED GOODS'
+  utter_AIPF:
+    - 'INVENTORIES - PROGRAM/FILM RIGHTS'
+  utter_AILR:
+    - 'LIFO RESERVE'
+  utter_AIBA:
+    - 'BIOLOGICAL ASSETS'
+  utter_AIOT:
+    - 'INVENTORIES –OTHER'
+  utter_XITL:
+    - 'TOTAL INVENTORY'
+  utter_APPY:
+    - 'PREPAYMENTS'
+  utter_APYO:
+    - 'PREPAID EXPENSES AND OTHER CURRENT ASSETS'
+  utter_ADCA:
+    - 'ST ASSETS HELD FOR SALE/FROM DISCONTINUED OPERATIONS'
+  utter_ACAO:
+    - 'OTHER CURRENT ASSETS'
+  utter_ADTC:
+    - 'DEFERRED INCOME TAX - CURRENT ASSET'
+  utter_ARAC:
+    - 'REGULATORY ASSETS - CURRENT ASSET'
+  utter_ACDF:
+    - 'DEFERRED FUEL COSTS – CURRENT'
+  utter_ADFC:
+    - 'DEFERRED COSTS – CURRENT'
+  utter_ARCA:
+    - 'RESTRICTED ACCOUNTS-CURRENT'
+  utter_ARSI:
+    - 'RESTRICTED SHORT TERM INVESTMENT'
+  utter_XOCA:
+    - 'OTHER CURRENT ASSETS –TOTAL'
+  utter_XTCA:
+    - 'TOTAL CURRENT ASSETS'
+  utter_AFVP:
+    - 'FAIR VALUE OF INVESTMENT PROPERTY'
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_ACSH
+ - utter_ACAE
+ - utter_ANCH
+ - utter_ANCE
+ - utter_ATDV
+ - utter_ASTI
+ - utter_XCNS
+ - utter_AFAC
+ - utter_ISID
+ - utter_AOCD
+ - utter_AUUR
+ - utter_AARG
+ - utter_APDA
+ - utter_AACR
+ - utter_ALRF
+ - utter_APNR
+ - utter_ACLR
+ - utter_ISRC
+ - utter_AONR
+ - utter_APOR
+ - utter_AORC
+ - utter_AAIC
+ - utter_AOTX
+ - utter_APDB
+ - utter_XOLR
+ - utter_ALRC
+ - utter_AIRT
+ - utter_AIRM
+ - utter_AFUL
+ - utter_AICD
+ - utter_AIWP
+ - utter_AGIS
+ - utter_AIFG
+ - utter_AIPF
+ - utter_AILR
+ - utter_AIBA
+ - utter_AIOT
+ - utter_XITL
+ - utter_APPY
+ - utter_APYO
+ - utter_ADCA
+ - utter_ACAO
+ - utter_ADTC
+ - utter_ARAC
+ - utter_ACDF
+ - utter_ADFC
+ - utter_ARCA
+ - utter_ARSI
+ - utter_XOCA
+ - utter_XTCA
+ - utter_AFVP
+
